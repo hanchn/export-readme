@@ -14,7 +14,7 @@ export-readme主要基于前端项目的package.json生成README.md（默认名�
 8.项目成员
 9.项目引用模块
 我们遵循代码/注释即文档的原则，只要代码写的OK，代码即文档。
-
+```
 {
     "name": "automatic-document-generation",
     "version": "1.0.0",
@@ -49,23 +49,19 @@ export-readme主要基于前端项目的package.json生成README.md（默认名�
     }
 }
 
-
+```
  关于配置及使用export-readme
 将export-readme防止在根目录
 并在package.json里面配置单独的命令手动使用，例如：
+```
     "scripts": {
         "doc": "node export-README.js"
     },
 
- 
+ ```
 或者在项目启动的时候，自动生成/更新
+```
     "scripts": {
         "dev": "node export-README.js && npm run start"
     },
-
- 
-生成文档的效果
-
-
-
-
+```
